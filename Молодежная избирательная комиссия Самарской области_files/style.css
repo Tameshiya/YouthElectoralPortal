@@ -1,0 +1,678 @@
+/*
+Theme Name: Ed.M-МИК
+Theme URI: http://mik-wp/
+Description: Тема для портала МИК Самарской области
+Author: Эдуард Мецкер
+Theme URI: http://vk.com/edwardmetsker
+Version: 1.0
+*/
+
+.clearfix{
+    clear: both;
+}
+body{
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 400;
+    color: #515151;
+    font-size: 14px;
+}
+
+a{
+    transition: all 0.5s ease;
+}
+
+a:hover{
+    color: #228aea !important;
+}
+
+.big-padding>div{
+    padding: 0 17px;
+}
+.subscribe-form{
+    margin-top: 40px;
+}
+#to-top{
+    display: block;
+    padding: 20px 10px;
+    float: right;
+    margin-top: -80px;
+    margin-right: 20px;
+    background: rgba(7,7,7,0.3);
+    text-indent: 99999;
+    transition: opacity 0.5s;
+}
+#to-top:hover{
+    opacity: 0.5;
+}
+
+.grid-item{
+    margin-bottom: 0px;
+}
+.subscribe-form input, .t-input{
+    margin-bottom: 0px;    
+    padding: 13px;
+    line-height: 1;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.subscribe-form input[type="submit"], .button{
+    display: block;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 7px;
+    border: none;
+    border-bottom: 3px solid;
+    font-size: 1.1428em;
+    padding: 13px 20px;
+    line-height: 1;
+    transition: transform 0.3s ease;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.subscribe-form input[type="submit"]:hover, .button:hover{
+    transform: scale(1.05);
+    text-decoration: none;
+    color: #fff !important;
+}
+
+.subscribe-form input[type="submit"], .red-btn{
+    background-color: #ed5c55;
+    border-color: #d14b44;
+}
+.subscribe-form input, .subscribe-form span{
+    display: block;
+    width: 300px;
+    max-width: 100%;
+    margin: 5px auto;
+}
+
+.blue-btn{
+    background-color: #228aea;
+    border-color: #0f76a6;
+    
+}
+.t-input{
+    margin-bottom: 15px;    
+    padding: 13px;
+    line-height: 1;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.news-date{
+    color: #9a9999;
+    margin-bottom: 10px;
+}
+
+.centered{
+    text-align: center !important;
+}
+ul{
+    padding: 0 !important;
+    margin: 0 !important; 
+}
+
+h2{
+    font-size: 1.42857em !important;
+    color: #303030;
+    margin-bottom: 20px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    margin-bottom: 30px !important;
+    margin-top: 10px !important;
+}
+h3{
+    font-size: 1.2857em !important;
+    color: #303030;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+}
+
+header{
+    width: 100%;
+    background: url(images/header-bg.png) repeat;
+    margin-bottom: 60px;
+}
+
+header #logo{
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+header #logo img{
+    max-width: 100%;
+}
+header #logo:hover{
+    opacity: 0.5;
+}
+header #head-mail-form{
+    background-color: #e9e6e6;
+    position: relative;
+    top: 0;
+    padding: 15px 25px;
+    border-radius: 0 0 10px 10px;
+    border: 1px solid #cccfd1;
+    border-top: none;
+    border-bottom: 3px solid #cccfd1;
+}
+
+header #head-mail-form h3{
+    text-transform: uppercase;
+    font-size: 1.2143em;
+    font-weight: 700;
+    color: #4e4d4d;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+header #head-mail-form input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+header #head-menu{
+    width: 100%;
+    background-color: #2ba0d7;
+    border-bottom: 4px solid #1386bc;
+    margin-top: 20px;
+}
+
+header #head-menu div{
+    padding: 0 !important;
+}
+
+header #head-menu ul{
+    font-size: 0;
+}
+
+header #head-menu ul li{
+    display: inline-block;
+    font-size: 14px;
+}
+
+header #head-menu li a{
+    display: block;
+    padding: 30px 15px;
+    color: #fff !important;
+    font-family: 'Roboto Condensed', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1.2143em;
+    text-transform: uppercase;
+    transition: none;
+}
+
+header #head-menu li.current-menu-item a{
+    background-color: #50b5e5;
+    border-bottom: 4px solid #2ba0d7;
+   margin-bottom: -4px;
+}
+
+header #head-menu li a:hover{
+    background-color: #ed5c55;
+    border-bottom: 4px solid #d14b44;
+    margin-bottom: -4px;
+    text-decoration: none;
+}
+
+.breadcrumbs{
+    color: #888;
+    font-size: 0.857em !important;
+margin-bottom: 40px;
+    text-align: right;
+background: url(images/bread-pattern.png) repeat;
+
+}
+
+.category-breadcrumbs{
+}
+
+.white-bg-spn{
+padding: 5px 10px;
+background: #fff; 
+}
+
+.category-head{
+    margin: 0;
+    padding: 0;
+}
+
+.category-header{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.post-thumb{
+margin-bottom: 20px !important;
+}
+.single-header{
+	line-height: 1.2 !important;
+font-size: 1.71429em !important;
+margin-top: 0px !important;
+}
+
+.main-slider{
+    width: 100%;
+}
+#slider {
+    margin-bottom: 40px;
+}
+
+.visible-bars{
+    opacity: 0.4 !important;
+}
+
+#main-slider .slide{
+    background-color: #fff;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-bottom: 4px solid #ccc;
+    max-height: 400px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.slide .news-img{
+    display: block;
+    max-height: 396px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.slide .news-img img{
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+.slide .slide-caption{
+    padding: 10px;
+    padding-right: 20px;
+}
+
+.slide h3{
+    font-size: 1.14286em;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+
+.more-btn{
+    float: right;
+    margin-top: 10px;
+}
+
+.anons h3 a, .anons p a, .videogallery h3 a{
+    color: #303030;
+}
+.videogallery{
+    margin-top: 40px;
+}
+.videogallery a img{
+    border: 1px solid #ccc;
+    margin-top: 0px;
+    border-bottom: 3px solid #aaa;
+    transition: opacity 0.5s;
+}
+.videogallery a:hover img{
+    opacity: 0.7;
+}
+
+.anons article{
+    margin-bottom: 20px;
+}
+
+.anons article p{
+    line-height: 1.2 !important;
+}
+.documents .big-pad-all {
+    padding: 20px;
+}
+.documents .row{
+    border-bottom: 1px solid #ccc;
+}
+.documents .bolder{
+    font-weight: 700;
+    border-bottom: 3px solid #333;
+}
+.documents .bolder .big-pad-all {
+    padding: 10px 20px;
+}
+
+.golos a{
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    color: #ed5c55;
+    text-decoration: underline;
+}
+
+.white-block{
+    display: block;
+    color: #303030;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-bottom: 4px solid #ccc;
+}
+
+a.white-block:hover{
+    text-decoration: none;
+    opacity: 0.6;
+    color: #303030 !important;
+}
+
+
+.white-block .img-container{
+    max-height: 150px;
+    overflow: hidden;
+}
+.white-block img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.white-block .white-block-caption{
+    padding: 25px;
+    text-align: center;
+}
+
+.white-block .white-block-caption h4{
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 1.2143em;
+    line-height: 1.4;
+}
+.sostav {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+h3.sostav-heading{
+    margin-bottom: 40px !important;
+    margin-top: 30px !important;
+}
+
+.chlenMIK{
+    padding: 15px !important;
+}
+
+.sostav p{
+    font-size: 1em;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.sostav p.sostav-italic{
+    font-size: 1.1429em;
+    text-align: center;
+    line-height: 1.1;
+    font-weight: 400italic;
+    font-style: italic;
+}
+
+.sostav h4{
+    font-size: 1.42857em;
+    text-align: center;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+
+.first-face h3 a{
+    color: #303030;
+}
+
+.white-block .white-block-caption p{
+    margin-bottom: 5px !important;
+    line-height: 1.2;
+}
+
+.news-cat{
+    display: block;
+    color: #303030;
+    border: 1px solid #ccc;
+    border-bottom: 4px solid #ccc;
+    margin-bottom: 0px;
+}
+
+.news-cat .img-container{
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.news-cat img{
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.news-cat h3{
+    line-height: 1.4;
+}
+.news-cat h3 a{
+    display: block;
+    color: #303030;
+    text-decoration: none;
+}
+.news-cat .button{
+    margin-top: 25px;
+}
+.news-cat .news-cat-caption{
+    width: 100%;
+    padding: 5px 35px 15px 35px;
+    text-align: left;
+}
+
+.main .img-in-text{
+    max-width: 100%;
+    float: left;
+    margin: 0 20px 10px 0;
+}
+
+.main img{
+    max-width: 100%;
+}
+
+.main h1, section h1{
+    font-size: 1.71429em;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.alignleft {float:left; margin: 0 20px 0 0;}
+.alignright {float:right; margin: 0 0 0 20px;}
+.aligncenter {margin-left:auto; margin-right:auto; margin-bottom: 20px; margin-top:20px;   display:block}
+
+footer{
+    margin-top: 60px;
+    background-color: #383838;
+}
+
+footer .footer-logo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    padding-left: 15px;
+    border-left: 5px solid #fff;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.2857em !important;
+    text-transform: uppercase;
+}
+
+footer .footer-logo:hover{
+    color: #fff !important;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+footer .footer-nav{
+    margin: 30px 0;
+}
+
+footer .footer-nav li{
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 10px;
+}
+
+footer .footer-nav li a{
+    font-size: 1.14286em;
+    color: #ccc8c8;
+    text-decoration: underline;   
+}
+footer .footer-nav li a:hover{
+    color: #228aea;
+}
+
+footer .work-by{
+    margin: 30px 0;
+}
+
+footer .work-by h4{
+    font-size: 1.14286em;
+    font-weight: 700;
+    color: #fff;
+    text-align: right;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+footer .work-by img{
+    float: right;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+.sertificat-page{
+    width: 800px;
+    height: 600px;
+    top: 0;
+    left: 0;
+    background: url(images/sertificat.png) no-repeat top left;
+}
+
+@media (max-width: 1200px) {
+    .slider{
+        max-height: none;
+    }
+
+    .slide .news-img img{
+        width: auto;
+        max-width: 120%;
+    }
+    
+}
+@media (max-width: 991px) {
+    header #head-menu ul li a{
+        font-size: 1.0714em;
+    }
+    .slide{
+        max-height: none;
+    }
+    .slide .news-img img{
+        width: 100%;
+        max-width: 100%;
+    }
+    .slider .slide-caption{
+        padding: 20px;
+    }
+    .slider .slide-caption .button{
+        margin-bottom: 20px;
+    }
+    .white-block{
+        padding-right: 20px;
+    }
+    .white-block-caption{
+        padding: 20px;
+        padding-right: 40px;
+    }
+    .white-block-caption .who{
+        padding-bottom: 20px;
+    }
+    .anons, .golos, .first-face, .videogallery{
+        margin-bottom: 60px;
+    }
+    
+    footer .work-by h4{
+        font-size: 1.0714em;
+    }
+
+    footer .work-by img{
+        margin-right: 30px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    
+    header #logo{
+        text-align: center;
+    }
+    
+    header #logo img{
+        margin: 20px 0;
+    }
+    
+    .slide{
+        padding-bottom: 20px;
+    }
+    
+    
+    .slider{
+        margin-bottom: 20px !important;
+    }
+    .documents .big-pad-all {
+        padding: 10px;
+    }
+    header #head-mail-form{
+        border-radius: 10px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    nav{
+        padding: 0 !important;
+    }
+    header #head-menu ul li{
+        padding: 0;
+    }
+    header #head-menu ul li{
+        padding: 0;
+        display: block;
+    }
+    header #head-menu ul li a{
+        text-align: center;
+        width: 100%;
+        padding: 15px;
+        border-top: 1px solid #53add7 !important;
+    }
+    header #head-menu ul li a:hover{
+        border: none;
+        margin-bottom: 0;
+    }
+    .first-face, .img-container{
+        padding-right: 0 !important;
+    }
+    .anons, .golos, .first-face, .videogallery{
+        margin-bottom: 40px;
+    }
+    footer{
+        padding: 0 20px;
+        margin-top: 20px;
+        position: relative;
+    }
+    footer .work-by, footer .work-by h4{
+        text-align: center !important;
+    }
+    footer .work-by img{
+        float: none;
+        margin: 10px 0;
+    }
+}
