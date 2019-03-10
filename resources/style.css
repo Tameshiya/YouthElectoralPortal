@@ -50,7 +50,7 @@ a:hover{
     margin-bottom: 0px;
 }
 .subscribe-form input, .t-input{
-    margin-bottom: 0px;    
+    margin-bottom: 0px;
     padding: 13px;
     line-height: 1;
     border-radius: 5px;
@@ -93,10 +93,10 @@ a:hover{
 .blue-btn{
     background-color: #228aea;
     border-color: #0f76a6;
-    
+
 }
 .t-input{
-    margin-bottom: 15px;    
+    margin-bottom: 15px;
     padding: 13px;
     line-height: 1;
     border-radius: 5px;
@@ -113,7 +113,7 @@ a:hover{
 }
 ul{
     padding: 0 !important;
-    margin: 0 !important; 
+    margin: 0 !important;
 }
 
 h2{
@@ -236,7 +236,7 @@ background: url(images/bread-pattern.png) repeat;
 
 .white-bg-spn{
 padding: 5px 10px;
-background: #fff; 
+background: #fff;
 }
 
 .category-head{
@@ -439,7 +439,7 @@ h3.sostav-heading{
     color: #303030;
     border: 1px solid #ccc;
     border-bottom: 4px solid #ccc;
-    margin-bottom: 0px;
+    margin-bottom: 16px;
 }
 
 .news-cat .img-container{
@@ -465,7 +465,7 @@ h3.sostav-heading{
 .news-cat .news-cat-caption{
     width: 100%;
     padding: 5px 35px 15px 35px;
-    text-align: left;
+    text-align: center;
 }
 
 .main .img-in-text{
@@ -527,7 +527,7 @@ footer .footer-nav li{
 footer .footer-nav li a{
     font-size: 1.14286em;
     color: #ccc8c8;
-    text-decoration: underline;   
+    text-decoration: underline;
 }
 footer .footer-nav li a:hover{
     color: #228aea;
@@ -568,7 +568,7 @@ footer .work-by img{
         width: auto;
         max-width: 120%;
     }
-    
+
 }
 @media (max-width: 991px) {
     header #head-menu ul li a{
@@ -600,7 +600,7 @@ footer .work-by img{
     .anons, .golos, .first-face, .videogallery{
         margin-bottom: 60px;
     }
-    
+
     footer .work-by h4{
         font-size: 1.0714em;
     }
@@ -612,20 +612,20 @@ footer .work-by img{
 
 
 @media (max-width: 767px) {
-    
+
     header #logo{
         text-align: center;
     }
-    
+
     header #logo img{
         margin: 20px 0;
     }
-    
+
     .slide{
         padding-bottom: 20px;
     }
-    
-    
+
+
     .slider{
         margin-bottom: 20px !important;
     }
