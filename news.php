@@ -150,14 +150,14 @@ border: 1px solid #c8c8c8;
     </span></p></div>
   </div>
   <?php
-$jsonurl = "http://0.0.0.0:8081/news";
+$jsonurl = "http://127.0.0.1:8081/news";
 $json = file_get_contents($jsonurl);
 $result = json_decode($json, true);
 for ($i = 0; isset($result[$i]); $i++) {
     echo '<div class="news-cat"><div class="row"><div class=" col-md-12 col-sm-7"><div class="news-cat-caption"><h3><a href="news_detail.php?id='
     .$result[$i]['id'].'">'.$result[$i]['title'].'</a></h3>';
-    echo '<p>'.$result[$i]['shortText'].'</p>';
-    echo '<p><a href="news_detail.php?id='.$result[$i]['id'].' class="button blue-btn">Подробнее</a></p></div></div></div></div>';
+    echo '<p>'.$result[$i]['description'].'</p>';
+    echo '<p><a href="news_detail.php?id='.$result[$i]['id'].'" class="button blue-btn">Подробнее</a></p></div></div></div></div>';
 }
 ?>
 
