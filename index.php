@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Молодежная избирательная комиссия Самарской области</title>
+  <title>Молодежная избирательная комиссия Новосибирской области</title>
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
       <link rel='dns-prefetch' href='//s.w.org' />
@@ -39,13 +39,13 @@
       <div class='container'>
           <div class='row'>
               <div class='col-md-4 col-sm-6'>
-                  <a id='logo' href='/'><img src='/resources/logo.png'></a>
+                  <a id='logo' href='/'><img src='/resources/logo.jpg'></a>
               </div>
               <div class='col-md-4 col-md-push-4  col-sm-6'>
                   <div id='head-mail-form'>
                       <!--<h3>Получать новости МИК:</h3>
                       <form class='' action=''>-->
-                          <p class='centered'>Подпишитесь на новостную рассылку Молодежной избирательной комиссии Самарской области и будьте в курсе всех наших событий</p>
+                          <p class='centered'>Подпишитесь на новостную рассылку Молодежной избирательной комиссии Новосибирской области и будьте в курсе всех наших событий</p>
                           <!--<input class='t-input' type='text' placeholder="example@mail.ru">-->
                           <a class='button red-btn subscribe-btn' href=''>ПОДПИСАТЬСЯ</a>
                       <!--</form>-->
@@ -96,11 +96,9 @@
 			</div>
 	    </div>
       <div class="main col-md-12">
-        <h1>О МОЛОДЕЖНОЙ ИЗБИРАТЕЛЬНОЙ КОМИССИИ САМАРСКОЙ ОБЛАСТИ</h1>
-        <p>Молодежная избирательная комиссия Самарской области является постоянно действующим совещательным и консультативным органом при Избирательной комиссии Самарской области. Главная задача комиссии &#8212; оказание содействия Избирательной комиссии Самарской области в деятельности по повышению правовой культуры молодых и будущих избирателей, формированию у молодежи активной гражданской позиции, осознанного интереса к избирательному праву и избирательному процессу, а также по обучению участников избирательного процесса и формированию кадрового резерва для избирательной системы.</p>
-        <p>
-          <img class="size-full wp-image-147 aligncenter" src="/resources/news.png" alt="news" width="800" height="502" srcset="/resources/news.png 800w, /resources/news-300x188.png 300w, /resources/news-768x482.png 768w" sizes="(max-width: 800px) 100vw, 800px" />
-        </p>
+        <h1>О МОЛОДЕЖНОЙ ИЗБИРАТЕЛЬНОЙ КОМИССИИ НОВОСИБИРСКОЙ ОБЛАСТИ</h1>
+        <p>Молодежная избирательная комиссия Новосибирской области является постоянно действующим совещательным и консультативным органом при Избирательной комиссии Новосибирской области. Главная задача комиссии &#8212; оказание содействия Избирательной комиссии Новосибирской области в деятельности по повышению правовой культуры молодых и будущих избирателей, формированию у молодежи активной гражданской позиции, осознанного интереса к избирательному праву и избирательному процессу, а также по обучению участников избирательного процесса и формированию кадрового резерва для избирательной системы.</p>
+
       </div>
     </div>
   </section>
@@ -109,11 +107,11 @@
       <div class='container'>
           <div class='row'>
               <div class='col-sm-4'>
-                  <a href='http://mik163.ru' class='footer-logo'>
+                  <a href='/' class='footer-logo'>
                       Молодежная<br>
                       Избирательная<br>
                       Комиссия<br>
-                      Самарской области
+                      Новосибирской области
                   </a>
               </div>
               <div class='col-md-4 col-sm-5'>
@@ -134,7 +132,7 @@
                 </div>
               <div class='col-md-4 col-sm-3 work-by'>
                   <h4>Разработка сайта:</h4>
-                  <a href='http://endfin.ru' target='_blank'><img src='/resources/er-logo.png'></a>
+
               </div>
           </div>
       </div>

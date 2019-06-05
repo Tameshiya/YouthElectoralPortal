@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Молодежная избирательная комиссия Самарской области</title>
+  <title>Молодежная избирательная комиссия Новосибирской области</title>
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
       <link rel='dns-prefetch' href='//s.w.org' />
@@ -39,13 +39,13 @@
       <div class='container'>
           <div class='row'>
               <div class='col-md-4 col-sm-6'>
-                  <a id='logo' href='/'><img src='/resources/logo.png'></a>
+                  <a id='logo' href='/'><img src='/resources/logo.jpg'></a>
               </div>
               <div class='col-md-4 col-md-push-4  col-sm-6'>
                   <div id='head-mail-form'>
                       <!--<h3>Получать новости МИК:</h3>
                       <form class='' action=''>-->
-                          <p class='centered'>Подпишитесь на новостную рассылку Молодежной избирательной комиссии Самарской области и будьте в курсе всех наших событий</p>
+                          <p class='centered'>Подпишитесь на новостную рассылку Молодежной избирательной комиссии Новосибирской области и будьте в курсе всех наших событий</p>
                           <!--<input class='t-input' type='text' placeholder="example@mail.ru">-->
                           <a class='button red-btn subscribe-btn' href=''>ПОДПИСАТЬСЯ</a>
                       <!--</form>-->
@@ -58,15 +58,16 @@
               <div class='row'>
                   <div class='col-md-12'>
                      <ul id="menu-%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%be%d0%b5-%d0%bc%d0%b5%d0%bd%d1%8e" class="">
-                      <li id="menu-item-20" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-20"><a href="/">Главная</a></li>
-                      <li id="menu-item-20" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-20"><a href="/about.php">О мик</a></li>
-                      <li id="menu-item-31" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-20"><a href="/news.php">Новости</a></li>
-                      <li id="menu-item-15" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-30 current_page_item menu-item-31"><a href="votes.php">Голосования</a></li>
-                      <li id="menu-item-454" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-454"><a href="/resources/">Мероприятия</a></li>
-                      <li id="menu-item-217" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-217"><a href="/resources/%d0%b3%d0%be%d0%bb%d0%be%d1%81%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f/">Партнеры</a></li>
-                      <li id="menu-item-854" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-854"><a href="/resources/">Обратная связь</a></li>
-                      <li id="menu-item-1224" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1224"><a href="/resources/%D0%BE%D0%BB%D0%B8%D0%BC%D0%BF%D0%B8%D0%B0%D0%B4%D0%B0/">Контакты</a></li>
-                      <li id="menu-item-325" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-325"><a href="/resources/%d0%b2%d0%b8%d0%b4%d0%b5%d0%be%d0%b3%d0%b0%d0%bb%d0%b5%d1%80%d0%b5%d1%8f/">Документы</a></li>
+                       <li id="menu-item-31" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15"><a href="/">Главная</a></li>
+                       <li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="/about.php">О мик</a></li>
+                       <li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="/news.php">Новости</a></li>
+                       <li id="menu-item-15" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-30 current_page_item menu-item-31"><a href="/votes.php">Голосования</a></li>
+                       <li id="menu-item-454" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-454"><a href="/events.php">Мероприятия</a></li>
+                       <li id="menu-item-217" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-217"><a href="/partners.php">Партнеры</a></li>
+                       <li id="menu-item-854" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-854"><a href="/feedback.php">Обратная связь</a></li>
+                       <li id="menu-item-1224" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1224"><a href="/contacts.php">Контакты</a></li>
+                       <li id="menu-item-1224" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1224"><a href="/elections.php">Выборы</a></li>
+                       <li id="menu-item-325" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-325"><a href="/docs.php">Документы</a></li>
                     </ul>
                   </div>
               </div>
@@ -106,11 +107,11 @@
       <div class='container'>
           <div class='row'>
               <div class='col-sm-4'>
-                  <a href='http://mik163.ru' class='footer-logo'>
+                  <a href='/' class='footer-logo'>
                       Молодежная<br>
                       Избирательная<br>
                       Комиссия<br>
-                      Самарской области
+                      Новосибирской области
                   </a>
               </div>
               <div class='col-md-4 col-sm-5'>
@@ -131,7 +132,7 @@
                 </div>
               <div class='col-md-4 col-sm-3 work-by'>
                   <h4>Разработка сайта:</h4>
-                  <a href='http://endfin.ru' target='_blank'><img src='/resources/er-logo.png'></a>
+
               </div>
           </div>
       </div>
